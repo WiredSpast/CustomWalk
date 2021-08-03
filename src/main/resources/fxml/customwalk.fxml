@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="175.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8.0.271" xmlns:fx="http://javafx.com/fxml/1" fx:controller="extension.CustomWalk">
+   <children>
+      <CheckBox fx:id="sitBox" layoutX="105.0" layoutY="14.0" mnemonicParsing="false" text="Sit" />
+      <ChoiceBox fx:id="actionsBox" layoutX="80.0" layoutY="50.0" prefWidth="150.0" />
+      <Label layoutX="15.0" layoutY="54.0" text="Actions:" />
+      <Label layoutX="15.0" layoutY="89.0" text="Signs:" />
+      <ChoiceBox fx:id="signsBox" layoutX="80.0" layoutY="85.0" prefWidth="150.0" />
+      <Button fx:id="enableButton" onAction="#onEnableButton" layoutX="80.0" layoutY="125.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="90.0" text="Enable" />
+   </children>
+</AnchorPane>
